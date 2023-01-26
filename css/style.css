@@ -110,3 +110,40 @@ h3 {
     text-align: justify;
     line-height: 1.5em;
 }
+
+#projetos {
+    display: flex;
+    justify-content: center;
+}
+
+#project-net {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0px;
+    overflow: hidden;
+    width: 1000px;
+}
+
+.img-project {
+    width: 700px;
+    object-fit: contain;
+}
+
+.descrição {
+    width: 300px;
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.descrição-title {
+    font-size: 1em;
+    text-align: center;
+    padding: 15px;
+}
+
+.descrição-text {
+    font-size: 0.9em;
+    padding: 0px 10%;
+    line-height: 1.2em;
+    text-align: justify;
+}
