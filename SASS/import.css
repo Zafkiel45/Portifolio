@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#menu {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", arial, helvetica, sans-serif;
+  padding: 0.56em;
+}
+#menu #list-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: flex-end;
+  gap: 0.56em;
+  margin: 0px 2%;
+}
+#menu #list-menu #projects {
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  right: 33%;
+}
+#menu #list-menu .item {
+  padding: 2px;
+  transition: transform 0.3s;
+}
+#menu #list-menu .item:hover {
+  position: relative;
+  bottom: 2px;
+  transform: scale(1.1);
+}/*# sourceMappingURL=import.css.map */
