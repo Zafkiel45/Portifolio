@@ -17,7 +17,7 @@ export const MainContent = () => {
             você, meu estimado cliente.
             </div>
             <div>
-                <Button aria-label="botão para fazer orçamento" size="sm" className="bg-[#1E1E1E] font-semibold active:relative active:-top-2 hover:scale-105 transition-all dark:bg-[#9651AE]">
+                <Button aria-label="botão para fazer orçamento" size="sm" className="bg-[#1E1E1E] font-semibold active:relative active:-bottom-1 hover:scale-105 transition-all dark:bg-[#9651AE]">
                     Fazer orçamento
                 </Button>
             </div>

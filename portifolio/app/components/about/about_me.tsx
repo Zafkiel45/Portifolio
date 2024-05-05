@@ -8,7 +8,7 @@ const SvgAboutMe = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_11_247)">
+      <g clipPath="url(#clip0_11_247)">
         <path d="M442 7.26282H176.93V132.969H442V7.26282Z" fill="#E6E6E6" />
         <path
           d="M434.421 18.0424H184.51V122.923H434.421V18.0424Z"
@@ -162,10 +162,10 @@ export const AboutMe = () => {
       <div className="w-full text-xl text-center font-bold h-fit">
         <h1 className={`${noto_sans.className}`}>Sobre mim</h1>
       </div>
-      <div className="w-full h-fit">
-        <div></div>
-      </div>
       <div className="w-full h-fit px-2">
+      <div className="w-full mb-1 flex justify-start h-fit">
+        <div className="w-10 h-2 rounded-lg dark:bg-[#9651AE]"></div>
+      </div>
         <p className="w-full">
           Meu nome é Murilo, e sou <strong>desenvolvedor Front-end</strong> há 1
           ano. Meu principal objetivo é produzir resultados com a{" "}
@@ -184,7 +184,7 @@ export const AboutMe = () => {
         </p>
       </div>
       <div className="w-full h-fit px-2">
-        <blockquote className="text-[#767676]">
+        <blockquote className="text-[#b2b2b2]">
           “Conhecimento é uma ponte que construímos e nos leva em direção ao
           futuro. “
         </blockquote>
