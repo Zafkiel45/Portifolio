@@ -3,7 +3,7 @@ import { noto_sans } from "@/config/fonts"
 
 export const MainContent = () => {
     return (
-        <main className="px-2 w-full dark:text-[#F1F1F1] h-[80vh] flex flex-col gap-5 items-center justify-center">
+        <main className="px-2 w-full h-[90vh] flex flex-col gap-5 items-center justify-center">
             <div className="text-center text-3xl ">
                 <h1 className={noto_sans.className}>
                     Desenvolvedor

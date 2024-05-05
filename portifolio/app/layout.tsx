@@ -29,11 +29,11 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang="pt-br" suppressHydrationWarning>
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background antialiased",
+					"min-h-screen bg-background text-[#393939] antialiased dark:text-[#F1F1F1]",
 					montserrat.className
 				)}
 			>

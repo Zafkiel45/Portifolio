@@ -3,7 +3,7 @@ import { SwitchMode } from "./modeButton"
 
 export const Header = () => {
     return (
-        <header className="w-screen dark:text-[#F1F1F1] font-semibold border-b dark:border-stone-700 h-auto py-3 px-2">
+        <header className="w-screen font-bold border-b dark:border-stone-700 h-auto py-3 px-2">
             <nav className="w-full h-full">
                 <ol className="flex w-full items-center gap-2 justify-center h-auto">
                     <Items name="Projetos"/>

@@ -93,7 +93,7 @@ export const Tecnologie = () => {
 
   return (
     <section className="w-screen py-6 flex flex-col gap-5 px-2">
-      <div className="text-center w-full text-xl">
+      <div className="text-center w-full font-bold text-xl">
         <h1 className={noto_sans.className}>Tecnologias</h1>
       </div>
       <div className="text-center">
