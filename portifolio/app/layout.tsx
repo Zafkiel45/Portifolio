@@ -33,7 +33,7 @@ export default function RootLayout({
 			<head />
 			<body
 				className={clsx(
-					"min-h-screen bg-background text-[#393939] antialiased dark:text-[#F1F1F1]",
+					"min-h-screen bg-background transition-colors text-[#393939] antialiased dark:text-[#F1F1F1]",
 					montserrat.className
 				)}
 			>

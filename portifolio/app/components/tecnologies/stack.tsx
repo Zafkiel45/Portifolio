@@ -16,7 +16,7 @@ export const StackElemento = ({
 }: {
   children: any;
   text: string | undefined;
-  title: string;
+  title: string;/*  */
   styles?: string;
 }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();

@@ -92,7 +92,7 @@ export const Tecnologie = () => {
   ];
 
   return (
-    <section className="w-screen py-6 flex flex-col gap-5 px-2">
+    <section id="tech" className="w-screen py-6 flex flex-col gap-5 px-2">
       <div className="text-center w-full font-bold text-xl">
         <h1 className={noto_sans.className}>Tecnologias</h1>
       </div>
@@ -122,49 +122,49 @@ export const Tecnologie = () => {
           text={descriptions[2].JavaScript}
           styles="hover:bg-[#F9FC5C]"
         >
-          <JavaScript className="dark:fill-white dark:group-hover:fill-[#323232] group-hover:fill-[#323232] w-full h-full" />
+          <JavaScript className="fill-white dark:group-hover:fill-[#323232] group-hover:fill-[#323232] w-full h-full" />
         </StackElemento>
         <StackElemento
           title="Git"
           text={descriptions[3].git}
           styles="hover:bg-[#F05133]"
         >
-          <Git className="dark:fill-white w-full h-full" />
+          <Git className="fill-white w-full h-full" />
         </StackElemento>
         <StackElemento
           title="Github"
           text={descriptions[4].github}
           styles="hover:bg-white"
         >
-          <Github className="dark:fill-white dark:group-hover:fill-[#7B4097] group-hover:fill-[#7B4097] w-full h-full" />
+          <Github className="fill-white dark:group-hover:fill-[#7B4097] group-hover:fill-[#7B4097] w-full h-full" />
         </StackElemento>
         <StackElemento
           title="Sass"
           text={descriptions[5].sass}
           styles="hover:bg-[#CD6799]"
         >
-          <Sass className="dark:fill-white w-full h-full" />
+          <Sass className="fill-white w-full h-full" />
         </StackElemento>
         <StackElemento
           title="React.js"
           text={descriptions[6].react}
           styles="hover:bg-[#5599AE]"
         >
-          <ReactJs className="dark:fill-white w-full h-full" />
+          <ReactJs className="fill-white w-full h-full" />
         </StackElemento>
         <StackElemento
           title="Next.js"
           text={descriptions[7].next}
-          styles="group hover:bg-white"
+          styles="group dark:hover:bg-white"
         >
-          <Next className="dark:fill-white w-full dark:group-hover:fill-[#111111] h-full" />
+          <Next className="fill-white w-full dark:group-hover:fill-[#111111] h-full" />
         </StackElemento>
         <StackElemento
           title="Tailwindcss"
           text={descriptions[8].tailwindcss}
           styles="hover:bg-[#002037]"
         >
-          <Tailwindcss className="dark:fill-white dark:group-hover:fill-[#23B0FF] w-full h-full" />
+          <Tailwindcss className="fill-white dark:group-hover:fill-[#23B0FF] w-full h-full" />
         </StackElemento>
       </div>
     </section>
