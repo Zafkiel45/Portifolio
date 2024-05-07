@@ -3,12 +3,11 @@ import * as React from "react"
 export function CSS(props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="102.37159mm"
-      height="116.10056mm"
       viewBox="0 0 102.37159 116.10056"
       xmlSpace="preserve"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
+      style={{maxWidth: '3rem'}}
     >
       <g transform="translate(-53.844 -104.94) matrix(.26458 0 0 .26458 21.686 65.448) matrix(1.06667 0 0 1.06667 41.933 41.933)">
         <path

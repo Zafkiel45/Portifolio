@@ -81,13 +81,13 @@ export const Tecnologie = () => {
     },
   ];
 
-  return (
-    <section id="tech" className="w-screen py-6 flex flex-col gap-5 px-2">
-      <div className="text-center w-full font-bold text-xl">
+  return ( 
+    <section id="tech" className="w-screen mobile:px-4 fullhd:py-20 fullhd:px-20 desktop:px-14 tablet:px-8 desktop:py-10 py-6 flex flex-col gap-5 px-2">
+      <div className="text-center w-full fullhd:text-5xl tablet:text-3xl font-bold mobile:text-2xl text-xl">
         <h1 className={noto_sans.className}>Tecnologias</h1>
       </div>
       <div className="text-center">
-        <p className="px-2">
+        <p className="px-2 fullhd:text-3xl tablet:text-lg">
           Clique em alguma tecnologia para ver mais informações sobre a Tecnologias
           selecionada.
         </p>
@@ -126,14 +126,14 @@ export const Tecnologie = () => {
           text={descriptions[4].github}
           styles="hover:bg-white"
         >
-          <Github className="fill-white dark:group-hover:fill-[#7B4097] group-hover:fill-[#7B4097] w-full h-full" />
+          <Github className="fill-white dark:group-hover:fill-[#7B4097] group-hover:fill-[#7B4097] fullhd:w-full fullhd:h-full w-4/5 h-4/5" />
         </StackElemento>
         <StackElemento
           title="Sass"
           text={descriptions[5].sass}
           styles="hover:bg-[#CD6799]"
         >
-          <Sass className="fill-white w-full h-full" />
+          <Sass className="fill-white w-full max-w-0 h-full" />
         </StackElemento>
         <StackElemento
           title="React.js"

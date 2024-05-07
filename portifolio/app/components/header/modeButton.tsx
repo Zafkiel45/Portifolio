@@ -6,7 +6,7 @@ import { Sun } from "@/public/svgs/sun";
 export const MoonSvg = () => {
   return (
     <svg
-      className="h-3 w-3 group-hover:fill-white dark:fill-white fill-[#212121]"
+      className="h-3 w-3 fullhd:w-6 fullhd:h-6 desktop:w-4 desktop:h-4 group-hover:fill-white dark:fill-white fill-[#212121]"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -63,11 +63,11 @@ export const SwitchMode = () => {
         onPress={toggleTheme}
         variant="bordered"
         size="sm"
-        className="dark:border-white border-[#121212] group hover:bg-[#9651AE] hover:border-none transition-colors"
+        className="dark:border-white border-[#121212] fullhd:w-14 fullhd:h-14 mobile:w-8 mobile:h-8 group hover:bg-[#9651AE] hover:border-none transition-colors"
         isIconOnly
         aria-label="alternar entre modo claro e escuro"
       >
-        {currentState === "light" ? <MoonSvg /> : <Sun className="h-3 w-3" />}
+        {currentState === "light" ? <MoonSvg /> : <Sun className="h-3 w-3 desktop:w-4 fullhd:h-6 fullhd:w-6 desktop:h-4" />}
       </Button>
     </li>
   );

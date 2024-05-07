@@ -40,9 +40,9 @@ export const Project = () => {
   return (
     <section
       id="project"
-      className="w-screen py-5 h-auto px-2 flex flex-col gap-8"
+      className="w-screen fullhd:px-20 desktop:px-14 tablet:items-center tablet:px-8 py-5 mobile:py-8 h-auto mobile:px-4 px-2 flex flex-col gap-8"
     >
-      <div className="text-center text-xl font-bold w-full">
+      <div className="text-center text-xl fullhd:text-5xl mobile:text-2xl tablet:text-3xl font-bold w-full">
         <h1 className={noto_sans.className}>Principais Projetos</h1>
       </div>
       <ProjectDescription

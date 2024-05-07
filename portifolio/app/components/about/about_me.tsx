@@ -3,7 +3,7 @@ import { noto_sans } from "@/config/fonts";
 const SvgAboutMe = () => {
   return (
     <svg
-      className="w-4/5 h-full"
+      className="w-4/5 h-full mobile:h-[70%] desktop:w-2/4 desktop:h-2/4 mobile:w-[70%]"
       viewBox="0 0 442 349"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -160,16 +160,16 @@ export const AboutMe = () => {
   return (
     <section
       id="about"
-      className="px-2 h-fit py-6 flex flex-col items-center gap-8 dark:text-[#F1F1F1]"
+      className="px-2 fullhd:px-20 mobile:px-4 desktop:px-14 tablet:px-8 h-fit py-6 mobile:py-8 flex flex-col items-center gap-8 dark:text-[#F1F1F1]"
     >
-      <div className="w-full text-xl text-center font-bold h-fit">
+      <div className="w-full text-xl fullhd:text-5xl mobile:text-2xl tablet:text-3xl text-center font-bold h-fit">
         <h1 className={`${noto_sans.className}`}>Sobre mim</h1>
       </div>
       <div className="w-full h-fit px-2">
         <div className="w-full mb-3 flex justify-start h-fit">
           <div className="w-10 h-3 bg-[#212121] rounded-lg dark:bg-[#9651AE]"></div>
         </div>
-        <p className="w-full">
+        <p className="w-full fullhd:text-3xl fullhd:leading-[3rem] tablet:text-lg">
           Meu nome é Murilo, e sou <strong>desenvolvedor Front-end</strong> há 1
           ano. Meu principal objetivo é produzir resultados com a{" "}
           <strong>mais alta qualidade e modernismo da atualidade</strong>.
@@ -187,7 +187,7 @@ export const AboutMe = () => {
         </p>
       </div>
       <div className="w-full h-fit px-2">
-        <blockquote className="dark:text-[#e7bffa] text-[#212121]">
+        <blockquote className="dark:text-[#e7bffa] fullhd:text-2xl tablet:text-lg text-[#212121]">
           “Sempre aprendiz de tudo, e nunca mestre de nada.“
         </blockquote>
       </div>

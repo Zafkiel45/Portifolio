@@ -9,6 +9,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      mobile: '450px',
+      tablet: '720px',
+      desktop: '1100px',
+      fullhd: '1500px'
+    },
   },
   darkMode: "class",
   plugins: [nextui({
@@ -18,6 +24,7 @@ module.exports = {
           background: '#111111'
         }
       }
+      
     }
   })],
 }

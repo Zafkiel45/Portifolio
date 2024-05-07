@@ -3,12 +3,11 @@ import * as React from "react"
 export function HTML(props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) {
   return (
     <svg
-      width="95.990829mm"
-      height="108.84958mm"
       viewBox="0 0 95.990829 108.84958"
       xmlSpace="preserve"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
+      style={{maxWidth: '3rem'}}
     >
       <path
         fill="#e44d26"

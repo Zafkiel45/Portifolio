@@ -24,13 +24,13 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-screen h-auto py-8 px-2 flex flex-col gap-8"
+      className="w-screen desktop:px-14 fullhd:px-20 h-auto tablet:px-8 fullhd:gap-20 mobile:px-4 py-8 px-2 flex flex-col gap-8"
     >
-      <div className="text-xl font-bold text-center w-full">
+      <div className="text-xl mobile:text-2xl fullhd:text-5xl tablet:text-3xl font-bold text-center w-full">
         <h1 className={noto_sans.className}>Contato</h1>
       </div>
-      <div className="w-full h-auto">
-        <AboutSvg className="h-full w-full" />
+      <div className="w-full tablet:flex tablet:justify-center h-auto">
+        <AboutSvg className="h-full w-full tablet:h-2/4 tablet:w-2/4" />
       </div>
       <ContactItem
         title="Contato por Whatsapp"
