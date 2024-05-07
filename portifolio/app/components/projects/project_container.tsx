@@ -8,7 +8,7 @@ export const Project = () => {
                 Projeto To-do List que consiste me adicionar tarefas para que 
                 o usuário possa elaborar melhor as atividades do dia. Nessa 
                 aplicação eu utilizo IndexedDB, que é um banco de dados para 
-                armazenar suas tarefas localmente! Além disso é utilizado React.js
+                armazenar suas tarefas localmente! Além disso é utilizado React.js,
                 Next.js, Tailwindcss, HTML, CSS, TypeScript e JavaScript. 
             `,
     },
@@ -24,7 +24,7 @@ export const Project = () => {
       ecommerce: `
                 Esse site consiste em simular um ecommerce real. Nele eu criei 
                 um layout com produtos fictícios em vendas. Totalmente responsivo e
-                e otimizado. Nele eu utilizei React.js, FakeStoreApi,
+                otimizado. Nele eu utilizei React.js, FakeStoreApi,
                 Next.js, Tailwindcss, HTML, CSS, TypeScript e JavaScript. 
             `,
     },

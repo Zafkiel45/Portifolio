@@ -6,17 +6,17 @@ export const Contact = () => {
   const contents = [
     {
       whatsapp: `
-            Clique no botão abaixo e você será redirecionado para um chat de conversa comigo no Whatsapp. Você irá descrever o seu projeto e eu farei um orçamento, dando o retorno de todos os gastos para o cliente. 
+            Entre em contato comigo por Whatsapp e agende um orçamento comigo agora mesmo. Clique no botão abaixo e me mande uma mensagem. Em alguns minutos, entrarei em contato. 
         `,
     },
     {
       instagram: `
-            Clique no botão abaixo e você será redirecionado para meu perfil no Instagram, basta manda uma mensagem na DM que farei um orçamento e darei um retorno de todos os custos para o cliente.
+            Entre em contato comigo atráves do Instagram. Quando clicar no botão abaixo, você será rederecionado para meu perfil no instagram, onde você pode me mandar uma mensagem.
         `,
     },
     {
       email: `
-        Mande uma mensagem para o Email abaixo, que eu enviarei minhas informações de contato para podermos negociar com mais agilidades e precisão na hora do orçamento.
+          Clique no botão abaixo para me mandar um email. Quando você me mandar uma email, eu manderei minhas informações de contato para que possamos agendar um orçamento.
         `,
     },
   ];

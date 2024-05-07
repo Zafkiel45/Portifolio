@@ -60,7 +60,7 @@ export const SwitchMode = () => {
   return (
     <li>
       <Button
-        onClick={toggleTheme}
+        onPress={toggleTheme}
         variant="bordered"
         size="sm"
         className="dark:border-white border-[#121212] group hover:bg-[#9651AE] hover:border-none transition-colors"

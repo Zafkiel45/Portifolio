@@ -166,30 +166,29 @@ export const AboutMe = () => {
         <h1 className={`${noto_sans.className}`}>Sobre mim</h1>
       </div>
       <div className="w-full h-fit px-2">
-        <div className="w-full mb-1 flex justify-start h-fit">
-          <div className="w-10 h-2 bg-[#212121] rounded-lg dark:bg-[#9651AE]"></div>
+        <div className="w-full mb-3 flex justify-start h-fit">
+          <div className="w-10 h-3 bg-[#212121] rounded-lg dark:bg-[#9651AE]"></div>
         </div>
         <p className="w-full">
           Meu nome é Murilo, e sou <strong>desenvolvedor Front-end</strong> há 1
           ano. Meu principal objetivo é produzir resultados com a{" "}
           <strong>mais alta qualidade e modernismo da atualidade</strong>.
           Atualmente sou desenvolvedor Front-end, entretanto busco ir além,
-          minha meta é ser um desenvolvedor
-          <strong>Full-stack</strong>, que domina ambos os universos:{" "}
-          <strong>Back-end </strong>e <strong>Front-end.</strong>
+          minha meta é ser um desenvolvedor {" "}
+          <strong> Full-stack</strong>, que domina ambos os universos:{" "}
+          <strong> Back-end </strong>e <strong> Front-end.</strong>
           <br />
           <br />
           Minha principal ferramenta atualmente é o{" "}
           <strong>JavaScript/TypeScript</strong>, e sigo me aprimorando em
           várias outras tecnologias como <strong>Next.js</strong>,{" "}
-          <strong>React</strong>,<strong>Tailwindcss</strong>,{" "}
-          <strong>Next.ui</strong>, dentre outras.
+          <strong> React</strong>,<strong> Tailwindcss</strong>,{" "}
+          <strong> Next.ui</strong>, dentre outras.
         </p>
       </div>
       <div className="w-full h-fit px-2">
-        <blockquote className="dark:text-[#b2b2b2] text-[#212121]">
-          “Conhecimento é uma ponte que construímos e nos leva em direção ao
-          futuro. “
+        <blockquote className="dark:text-[#e7bffa] text-[#212121]">
+          “Sempre aprendiz de tudo, e nunca mestre de nada.“
         </blockquote>
       </div>
       <div className="w-full flex items-center justify-center h-fit">

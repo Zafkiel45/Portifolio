@@ -14,35 +14,30 @@ import { Sass } from "@/public/svgs/Sass";
 export const Tecnologie = () => {
   const descriptions = [
     {
-      html: ` HTML é uma linguagem de desenvolvimento mais utilizada em toda web
-      , sendo também muito simples de utilizada. Conto com um alto nível de 
-      experiência utilizando HTML, tendo feito todos os meus projetos com o
-       mesmo. `,
+      html: `HTML é uma linguagem marcação de texto que é amplamente utilizada 
+      no desenvolvimento web. Sendo uma tecnologia essencial para a produção de
+      sites e aplicações web.`,
     },
     {
       css: `
-        CSS é uma linguagem de desenvolvimento voltada para a estilização. 
-        Sendo muito utilizada na Web, CSS gera um grande impacto em suas 
-        aplicações. Conto com um alto nível de Maestria com CSS tendo feito
-        vários projetos com o mesmo.
+        CSS é uma linguagem de desenvolvimento voltada para estilos. Seu principal
+        papel é estilizar sites, tendo um peso enorme na hora do desenvolvimento. 
+        Seu domínio é essencial para atingir designs de qualidade.
       `,
     },
     {
       JavaScript: `
         JavaScript é uma linguagem de programação muito popular no desenvolvimento
         web. JavaScript é extremamente flexível permitindo trabalhando tanto no
-        Front-end, quanto no Back-end. Tenho um alto domínio com JavaScript na 
-        parte do desenvolvimento Front-end, e uma base com o desenvolvimento 
-        Back-end utilizando o mesmo. Aplico JavaScript em todos os sites para 
-        torna-lo mais dinâmico e intuitivo.
+        Front-end, quanto no Back-end. Sendo uma linguagem que deixa aplicações web
+        mais dinâmicas e interativas para o usuário final.
       `,
     },
     {
       git: `Git é um sistema de controle de versão distribuído, sendo muito 
         utilizado por todos os programadores. Com git, nos é permitido gerenciar,
         controlar e fazer manutenção do código de suas aplicações, sendo fundamental
-        para todas as aplicações. Eu conto com uma experiência de nível intermédiario
-        em seu uso, entretanto, continuo me aprimorando no mesmo. 
+        para todas as aplicações. 
       `,
     },
     {
@@ -52,7 +47,7 @@ export const Tecnologie = () => {
         cooperações entre si. Github é essencial para o desenvolvimento das aplicações, pois 
         além de ajudar na hora do desenvolvimento, o cliente tem total transparência e acesso
         ao código do seu projeto, podendo controlar, remover, adicionar e alterar por conta 
-        próprio, se for de sua sua escolha.
+        própria, se for de sua sua escolha.
       `,
     },
     {
@@ -60,33 +55,28 @@ export const Tecnologie = () => {
         Sass é um pré-processador CSS, que tem como principal objetivo aprimorar
         a eficiência do desenvolvimento em CSS, agilizando o processo. Sass é muito
         poderoso, sendo muito utilizando em diversos campos, além de ser leve, 
-        versátil e fácil de manipular. Conto com uma grande gama de conceimento 
-        do mesmo, tendo alguns projetos com Sass. 
+        versátil e fácil de manipular.  
       `,
     },
     {
       react: `
         React.js é uma biblioteca JavaScript, que adiciona muitas funções extras,
-        e nos permite construir aplicações reativas. React, traz um novo conceito 
-        de desenvolvimento Front-end. Tenho um amplo conhecimento em React, apesar 
-        de ainda estar estudando ele. Fiz diversos projetos com ele, desde os mais 
-        simples até os mais complexo.
+        e nos permite construir aplicações reativas. React traz um novo conceito 
+        de desenvolvimento Front-end.
       `,
     },
     {
       next: `
         Next.js é um framework baseado em React.js, onde eleva o conceito de programação 
-        Front-end a outro patamar, com mais eficiência e flexibilidade. Apesar de ter 
-        feito alguns projetos com ele, sigo me aprimorando a cada dia para domina-lo ainda 
-        mais. 
+        Front-end a outro patamar, com mais eficiência e flexibilidade. Next.js nos permite 
+        SSR, que é fundamental para otimização de sites, principalmente sites mais robustos.
       `,
     },
     {
       tailwindcss: `
         Tailwindcss é um framework para CSS, que está atualmente muito popular no mercado,
         além de ser um "padrão" para o Next.js. Tailwindcss oferece recusos para agilizar 
-        no processo de criação dos sites, além de otimizar bem o produto final. Eu conto 
-        com um vasto conhecimento utilizando Tailwindcss. 
+        no processo de criação dos sites, além de otimizar bem o produto final. 
       `,
     },
   ];
@@ -98,8 +88,8 @@ export const Tecnologie = () => {
       </div>
       <div className="text-center">
         <p className="px-2">
-          Clique em alguma tecnologia para ver mais informações sobre minha
-          experiência com a tecnologia selecionada.
+          Clique em alguma tecnologia para ver mais informações sobre a Tecnologias
+          selecionada.
         </p>
       </div>
       <div className="w-full px-2 flex justify-center flex-wrap gap-2">
