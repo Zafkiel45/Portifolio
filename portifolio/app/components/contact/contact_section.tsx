@@ -6,7 +6,7 @@ export const Contact = () => {
   const contents = [
     {
       whatsapp: `
-            Entre em contato comigo por Whatsapp e agende um orçamento comigo agora mesmo. Clique no botão abaixo e me mande uma mensagem. Em alguns minutos, entrarei em contato. 
+            Entre em contato comigo por Whatsapp. Clique no botão abaixo e me mande uma mensagem. Em alguns minutos, entrarei em contato. 
         `,
     },
     {
@@ -16,7 +16,7 @@ export const Contact = () => {
     },
     {
       email: `
-          Clique no botão abaixo para me mandar um email. Quando você me mandar uma email, eu manderei minhas informações de contato para que possamos agendar um orçamento.
+          Clique no botão abaixo para me mandar um email. 
         `,
     },
   ];
@@ -44,7 +44,7 @@ export const Contact = () => {
       />
       <ContactItem
         title="Contato por Email"
-        link="https://mail.google.com/mail/?view=cm&fs=1&to=murilosilvapb45@gmail.com&su=Olá, gostaria de fazer um orçamento&body=Corpo do Email"
+        link="https://mail.google.com/mail/?view=cm&fs=1&to=murilosilvapb45@gmail.com&su=Olá, gostaria de entrar em contato&body=Corpo do Email"
         content={contents[2].email}
       />
     </section>

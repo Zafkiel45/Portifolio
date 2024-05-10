@@ -27,7 +27,7 @@ export const MainContent = () => {
             size="sm"
             className="bg-[#1E1E1E] fullhd:text-2xl fullhd:p-7 text-white desktop:text-lg mobile:text-base font-semibold active:relative active:-bottom-1 hover:scale-105 transition-all dark:bg-[#9651AE]"
           >
-            Fazer orçamento
+            Contato
           </Button>
         </Link>
       </div>
