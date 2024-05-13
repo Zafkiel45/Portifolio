@@ -67,7 +67,7 @@ export const SwitchMode = () => {
         isIconOnly
         aria-label="alternar entre modo claro e escuro"
       >
-        {currentState === "light" ? <MoonSvg /> : <Sun className="h-3 w-3 desktop:w-4 fullhd:h-6 fullhd:w-6 desktop:h-4" />}
+        {currentState === "light" ? <MoonSvg /> : <Sun className="h-3 w-3 desktop:w-4 fill-[#212121] dark:fill-white fullhd:h-6 fullhd:w-6 desktop:h-4" />}
       </Button>
     </li>
   );

@@ -95,6 +95,7 @@ export const Tecnologie = () => {
           title="HTML"
           text={descriptions[0].html}
           styles="hover:bg-[#653B15]"
+          label="html"
         >
           <HTML className="w-full h-full" />
         </StackElemento>
@@ -102,6 +103,7 @@ export const Tecnologie = () => {
           title="CSS"
           text={descriptions[1].css}
           styles="hover:bg-[#002037]"
+          label="css"
         >
           <CSS className="w-full h-full" />
         </StackElemento>
@@ -109,6 +111,7 @@ export const Tecnologie = () => {
           title="JavaScript"
           text={descriptions[2].JavaScript}
           styles="hover:bg-[#F9FC5C]"
+          label="javaScript"
         >
           <JavaScript className="fill-white dark:group-hover:fill-[#323232] group-hover:fill-[#323232] w-full h-full" />
         </StackElemento>
@@ -116,6 +119,7 @@ export const Tecnologie = () => {
           title="Git"
           text={descriptions[3].git}
           styles="hover:bg-[#F05133]"
+          label="git"
         >
           <Git className="fill-white w-full h-full" />
         </StackElemento>
@@ -123,6 +127,7 @@ export const Tecnologie = () => {
           title="Github"
           text={descriptions[4].github}
           styles="hover:bg-white"
+          label="github"
         >
           <Github className="fill-white dark:group-hover:fill-[#7B4097] group-hover:fill-[#7B4097] fullhd:w-full fullhd:h-full w-4/5 h-4/5" />
         </StackElemento>
@@ -130,6 +135,7 @@ export const Tecnologie = () => {
           title="Sass"
           text={descriptions[5].sass}
           styles="hover:bg-[#CD6799]"
+          label="sass"
         >
           <Sass className="fill-white w-full max-w-0 h-full" />
         </StackElemento>
@@ -137,6 +143,7 @@ export const Tecnologie = () => {
           title="React.js"
           text={descriptions[6].react}
           styles="hover:bg-[#5599AE]"
+          label="react.js"
         >
           <ReactJs className="fill-white w-full h-full" />
         </StackElemento>
@@ -144,6 +151,7 @@ export const Tecnologie = () => {
           title="Next.js"
           text={descriptions[7].next}
           styles="group dark:hover:bg-white"
+          label="next.js"
         >
           <Next className="fill-white w-full dark:group-hover:fill-[#111111] h-full" />
         </StackElemento>
@@ -151,6 +159,7 @@ export const Tecnologie = () => {
           title="Tailwindcss"
           text={descriptions[8].tailwindcss}
           styles="hover:bg-[#002037]"
+          label="tailwindcss"
         >
           <Tailwindcss className="fill-white dark:group-hover:fill-[#23B0FF] w-full h-full" />
         </StackElemento>

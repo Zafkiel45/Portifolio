@@ -10,15 +10,9 @@ export const Header = () => {
     >
       <nav className="w-full h-full">
         <ol className="flex w-full items-center gap-2 justify-center h-auto">
-          <Link href={`./#project`}>
-            <Items name="Projetos" />
-          </Link>
-          <Link href={`./#home2`}>
-            <Items name="Início" />
-          </Link>
-          <Link href={`./#about`}>
-            <Items name="Sobre" />
-          </Link>
+          <Items name="Projetos" link="./#project" />
+          <Items name="Início" link="./#home2"/>
+          <Items name="Sobre" link="./#about" />
           <SwitchMode />
         </ol>
       </nav>

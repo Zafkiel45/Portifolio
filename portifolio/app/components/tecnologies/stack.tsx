@@ -13,10 +13,12 @@ export const StackElemento = ({
   text,
   title,
   styles,
+  label,
 }: {
   children: any;
   text: string | undefined;
-  title: string;/*  */
+  title: string;
+  label: string;
   styles?: string;
 }) => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -24,6 +26,7 @@ export const StackElemento = ({
   return (
     <div className={`w-16 fullhd:text-lg fullhd:w-32 fullhd:h-32  h-16 `}>
       <Button
+        aria-label={label}
         onPress={onOpen}
         variant="flat"
         size="sm"
