@@ -37,9 +37,7 @@ export default function RootLayout({
 					montserrat.className
 				)}
 			>
-				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					{children}
-				</Providers>
 			</body>
 		</html>
 	);

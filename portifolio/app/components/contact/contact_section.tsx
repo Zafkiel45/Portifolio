@@ -1,4 +1,4 @@
-import { noto_sans } from "@/config/fonts";
+import { Title } from "../utility/title_component";
 import { AboutSvg } from "@/public/svgs/contact";
 import { ContactItem } from "./contact_item";
 
@@ -26,9 +26,7 @@ export const Contact = () => {
       id="contact"
       className="w-screen desktop:px-14 fullhd:px-20 h-auto tablet:px-8 fullhd:gap-20 mobile:px-4 py-8 px-2 flex flex-col gap-8"
     >
-      <div className="text-xl mobile:text-2xl fullhd:text-5xl tablet:text-3xl font-bold text-center w-full">
-        <h1 className={noto_sans.className}>Contato</h1>
-      </div>
+      <Title title="Contatos" />
       <div className="w-full tablet:flex tablet:justify-center h-auto">
         <AboutSvg className="h-full w-full tablet:h-2/4 tablet:w-2/4" />
       </div>

@@ -1,5 +1,5 @@
 import { ProjectDescription } from "./project_description";
-import { noto_sans } from "@/config/fonts";
+import { Title } from "../utility/title_component";
 
 export const Project = () => {
   const contents = [
@@ -42,9 +42,7 @@ export const Project = () => {
       id="project"
       className="w-screen fullhd:px-20 desktop:px-14 tablet:items-center tablet:px-8 py-5 mobile:py-8 h-auto mobile:px-4 px-2 flex flex-col gap-8"
     >
-      <div className="text-center text-xl fullhd:text-5xl mobile:text-2xl tablet:text-3xl font-bold w-full">
-        <h1 className={noto_sans.className}>Principais Projetos</h1>
-      </div>
+      <Title title="Principais Projetos" />
       <ProjectDescription
         content={contents[0].todoList}
         title="To-do List"

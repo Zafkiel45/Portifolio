@@ -1,4 +1,4 @@
-import { noto_sans } from "@/config/fonts";
+import { Title } from "../utility/title_component";
 
 const SvgAboutMe = () => {
   return (
@@ -162,9 +162,7 @@ export const AboutMe = () => {
       id="about"
       className="px-2 fullhd:px-20 mobile:px-4 desktop:px-14 tablet:px-8 h-fit py-6 mobile:py-8 flex flex-col items-center gap-8 dark:text-[#F1F1F1]"
     >
-      <div className="w-full text-xl fullhd:text-5xl mobile:text-2xl tablet:text-3xl text-center font-bold h-fit">
-        <h1 className={`${noto_sans.className}`}>Sobre mim</h1>
-      </div>
+      <Title title="Sobre"/>
       <div className="w-full h-fit px-2">
         <div className="w-full mb-3 flex justify-start h-fit">
           <div className="w-10 h-3 bg-[#212121] rounded-lg dark:bg-[#9651AE]"></div>

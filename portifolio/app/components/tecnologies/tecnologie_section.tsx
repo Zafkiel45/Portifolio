@@ -1,5 +1,5 @@
-import { noto_sans } from "@/config/fonts";
 import { StackElemento } from "./stack";
+import { Title } from "../utility/title_component";
 // svgs
 import { HTML } from "@/public/svgs/html";
 import { CSS } from "@/public/svgs/css";
@@ -83,9 +83,7 @@ export const Tecnologie = () => {
 
   return ( 
     <section id="tech" className="w-screen mobile:px-4 fullhd:py-20 fullhd:px-20 desktop:px-14 tablet:px-8 desktop:py-10 py-6 flex flex-col gap-5 px-2">
-      <div className="text-center w-full fullhd:text-5xl tablet:text-3xl font-bold mobile:text-2xl text-xl">
-        <h1 className={noto_sans.className}>Tecnologias</h1>
-      </div>
+      <Title title="Tecnologias" />
       <div className="text-center">
         <p className="px-2 fullhd:text-3xl tablet:text-lg">
           Clique em alguma tecnologia para ver mais informações sobre a Tecnologias
