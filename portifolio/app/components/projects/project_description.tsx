@@ -12,7 +12,7 @@ export const ProjectDescription = ({
   link: string;
 }) => {
   return (
-    <div className="bg-[#2B292F] fullhd:p-10 fullhd:gap-10 tablet:w-4/5  text-[#f1f1f1] w-full rounded-lg flex flex-col gap-4 shadow-md p-5 text-center">
+    <div className="bg-[#2B292F] fullhd:p-10 fullhd:gap-10 desktop:w-2/3 mobile:w-4/5  text-[#f1f1f1] w-full rounded-lg flex flex-col gap-4 shadow-md p-5 text-center">
       <div className="w-full tablet:text-xl fullhd:text-4xl text-lg font-bold">
         <h1 className={noto_sans.className}>{title}</h1>
       </div>
