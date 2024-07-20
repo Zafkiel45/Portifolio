@@ -24,7 +24,7 @@ export const StackElemento = ({
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
-    <div className={`w-16 fullhd:text-lg fullhd:w-32 fullhd:h-32  h-16 `}>
+    <div className={`w-16 fullhd:text-lg tablet:h-20 tablet:w-20  fullhd:w-32 fullhd:h-32  h-16 `}>
       <Button
         aria-label={label}
         onPress={onOpen}

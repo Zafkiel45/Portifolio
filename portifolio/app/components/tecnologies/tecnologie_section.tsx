@@ -82,7 +82,7 @@ export const Tecnologie = () => {
   ];
 
   return ( 
-    <section id="tech" className="w-screen mobile:px-4 fullhd:py-20 fullhd:px-20 desktop:px-14 tablet:px-8 desktop:py-10 py-6 flex flex-col gap-5 px-2">
+    <section id="tech" className="w-screen mobile:px-4 fullhd:py-20 fullhd:px-20 desktop:px-14 tablet:px-8 tablet:my-20 desktop:py-10 py-6 my-12 flex flex-col gap-5 px-2">
       <Title title="Tecnologias" />
       <div className="text-center">
         <p className="px-2 fullhd:text-3xl tablet:text-lg">

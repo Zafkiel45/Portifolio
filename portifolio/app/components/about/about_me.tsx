@@ -165,21 +165,23 @@ export const AboutMe = () => {
       <Title title="Sobre"/>
       <div className="w-full h-fit px-2">
         <div className="w-full mb-3 flex justify-start h-fit">
-          <div className="w-10 h-3 bg-[#212121] rounded-lg dark:bg-[#9651AE]"></div>
+          <div className="w-10 h-3 bg-[#9651AE] rounded-lg"></div>
         </div>
-        <p className="w-full fullhd:text-3xl fullhd:leading-[3rem] tablet:text-lg">
+        <p className="w-full fullhd:text-3xl fullhd:leading-[3rem] leading-6 mobile:leading-7  desktop:leading-8 desktop:text-2xl tablet:text-lg">
           Meu nome é Murilo, e sou <strong>desenvolvedor Front-end</strong> há 1
-          ano. Meu principal objetivo é produzir resultados com a{" "}
-          <strong>mais alta qualidade e modernismo da atualidade</strong>.
+          ano. Meu principal objetivo é produzir com maestria
+          resultados com a {" "}
+          <strong>mais alta qualidade e modernismo da atualidade</strong>. <br/><br/>
           Atualmente sou desenvolvedor Front-end, entretanto busco ir além,
-          minha meta é ser um desenvolvedor {" "}
+          expandir meus horizontes para o back-end também, consequentemente
+          me tornando um desenvolvedor: {" "}
           <strong> Full-stack</strong>, que domina ambos os universos:{" "}
           <strong> Back-end </strong>e <strong> Front-end.</strong>
           <br />
           <br />
           Minha principal ferramenta atualmente é o{" "}
-          <strong>JavaScript/TypeScript</strong>, e sigo me aprimorando em
-          várias outras tecnologias como <strong>Next.js</strong>,{" "}
+          <strong>JavaScript/TypeScript</strong>, e sigo polindo minhas habilidades
+          em várias outras tecnologias como <strong>Next.js</strong>,{" "}
           <strong> React</strong>,<strong> Tailwindcss</strong>,{" "}
           <strong> Next.ui</strong>, dentre outras.
         </p>
@@ -189,7 +191,7 @@ export const AboutMe = () => {
           “Sempre aprendiz de tudo, e nunca mestre de nada.“
         </blockquote>
       </div>
-      <div className="w-full flex items-center justify-center h-fit">
+      <div className="w-full mt-10 flex items-center justify-center h-fit">
         <SvgAboutMe />
       </div>
     </section>
