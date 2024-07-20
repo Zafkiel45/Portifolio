@@ -2,8 +2,6 @@ import Link from "next/link";
 
 import { FooterItems } from "./footer_items";
 
-// estudar o que é o atributo rel e como ele funciona em links
-
 export const Footer = () => {
   return (
     <footer className="w-screen h-fit desktop:px-14 fullhd:px-20 flex flex-col text-[#f1f1f1] gap-4 tablet:px-8 mobile:px-4 mobile:pt-8 px-2 py-5 bg-[#121212] dark:bg-[#252435]">
